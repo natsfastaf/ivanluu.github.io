@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { HashRouter, Route, Switch } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 
 import Home from './pages/home/Home';
@@ -23,16 +23,16 @@ const App: React.FC = () => {
           />
         </Helmet>
 
-        <Router>
+        <HashRouter basename="/">
           <NavBar />
           <Switch>
-            <Route path="/" exact component={Home} />
+            <Route exact path="/" component={Home} />
             <Route path="/resume" exact component={Resume} />
             <Route path="/blog" exact component={Blog} />
             <Route path="*" exact component={NotFound} />
           </Switch>
           <Footer />
-        </Router>
+        </HashRouter>
       </ThemeProvider>
     </>
   );
