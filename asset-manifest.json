@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/natsfastaf/ivanluu.github.io/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/natsfastaf/ivanluu.github.io/static/js/main.757a042c.chunk.js",
-    "main.js.map": "/natsfastaf/ivanluu.github.io/static/js/main.757a042c.chunk.js.map",
+    "main.js": "/natsfastaf/ivanluu.github.io/static/js/main.3bfd9bee.chunk.js",
+    "main.js.map": "/natsfastaf/ivanluu.github.io/static/js/main.3bfd9bee.chunk.js.map",
     "runtime-main.js": "/natsfastaf/ivanluu.github.io/static/js/runtime-main.51e7c393.js",
     "runtime-main.js.map": "/natsfastaf/ivanluu.github.io/static/js/runtime-main.51e7c393.js.map",
-    "static/js/2.9562bdba.chunk.js": "/natsfastaf/ivanluu.github.io/static/js/2.9562bdba.chunk.js",
-    "static/js/2.9562bdba.chunk.js.map": "/natsfastaf/ivanluu.github.io/static/js/2.9562bdba.chunk.js.map",
+    "static/js/2.627efa54.chunk.js": "/natsfastaf/ivanluu.github.io/static/js/2.627efa54.chunk.js",
+    "static/js/2.627efa54.chunk.js.map": "/natsfastaf/ivanluu.github.io/static/js/2.627efa54.chunk.js.map",
     "index.html": "/natsfastaf/ivanluu.github.io/index.html",
     "static/css/main.6dea0f05.chunk.css.map": "/natsfastaf/ivanluu.github.io/static/css/main.6dea0f05.chunk.css.map",
-    "static/js/2.9562bdba.chunk.js.LICENSE.txt": "/natsfastaf/ivanluu.github.io/static/js/2.9562bdba.chunk.js.LICENSE.txt",
+    "static/js/2.627efa54.chunk.js.LICENSE.txt": "/natsfastaf/ivanluu.github.io/static/js/2.627efa54.chunk.js.LICENSE.txt",
     "static/media/LinkedIn.01a22cca.svg": "/natsfastaf/ivanluu.github.io/static/media/LinkedIn.01a22cca.svg",
     "static/media/Mail.f2fd78f2.svg": "/natsfastaf/ivanluu.github.io/static/media/Mail.f2fd78f2.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.51e7c393.js",
-    "static/js/2.9562bdba.chunk.js",
+    "static/js/2.627efa54.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.757a042c.chunk.js"
+    "static/js/main.3bfd9bee.chunk.js"
   ]
 }
