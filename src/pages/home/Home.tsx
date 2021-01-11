@@ -1,21 +1,9 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import { makeStyles } from '@material-ui/core/styles';
-import {
-  Container,
-  Typography,
-  Grid,
-  Divider,
-} from '@material-ui/core';
-
-
-// @ts-ignore
+import { Container, Typography, Grid, Divider } from '@material-ui/core';
 import Typical from 'react-typical';
-
-//need to declare module
-// @ts-ignore
 import Fade from 'react-reveal/Fade';
-
 import { ReactComponent as LinkedIn } from './LinkedIn.svg';
 import { ReactComponent as Mail } from './Mail.svg';
 
@@ -92,15 +80,10 @@ const Home: React.FC = () => {
     <Container maxWidth="sm">
       <Helmet>
         <title>Ivan Luu</title>
-        <meta
-          name="description"
-          content="Ivan Luu's personal website"
-        />
+        <meta name="description" content="Ivan Luu's personal website" />
       </Helmet>
-
       <Grid container alignItems="center" className={classes.landing}>
-        { }
-
+        {}
         <div>
           <Typography
             variant="h3"
@@ -109,18 +92,12 @@ const Home: React.FC = () => {
             gutterBottom
           >
             <Typical
-                className={classes.typical}
-                steps={[
-                  'Welcome!',
-                  typePause,
-                  typePause * 2,
-                ]}
-                wrapper={'p'}
+              className={classes.typical}
+              steps={['Welcome!', typePause, typePause * 2]}
+              wrapper={'p'}
             />
             My name is Ivan Luu.
-
           </Typography>
-
           <Typography
             variant="h5"
             align="center"
@@ -150,8 +127,7 @@ const Home: React.FC = () => {
                 href="https://www.linkedin.com/in/ivanluu/"
                 className={classes.homeGrid}
               >
-                <Grid justify="space-around"
-                      alignItems="center">
+                <Grid justify="space-around" alignItems="center">
                   <LinkedIn className={classes.bigImage} />
                 </Grid>
               </a>
@@ -161,16 +137,14 @@ const Home: React.FC = () => {
                 href="mailto:ivanluu2019@gmail.com"
                 className={classes.homeGrid}
               >
-                <Grid justify="space-around"
-                      alignItems="center">
+                <Grid justify="space-around" alignItems="center">
                   <Mail className={classes.bigImage} />
-                  </Grid>
+                </Grid>
               </a>
             </Grid>
           </Grid>
         </div>
       </Fade>
-
     </Container>
   );
 };

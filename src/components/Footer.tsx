@@ -61,7 +61,6 @@ const Footer: React.FC = () => {
                 E-mail
               </a>
             </Typography>
-
           </Grid>
           <Grid item xs>
             <Box display="flex" flexDirection="column" alignItems="center">

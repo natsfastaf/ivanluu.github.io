@@ -1,6 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
-import {Container, Box, Typography} from '@material-ui/core';
+import { Container, Box, Typography } from '@material-ui/core';
 
 const Resume: React.FC = () => {
   React.useEffect(() => {
@@ -10,21 +10,12 @@ const Resume: React.FC = () => {
     <Container maxWidth="md">
       <Helmet>
         <title>Ivan Luu Resume</title>
-        <meta
-          name="description"
-          content="Page dedicated to projects/resume"
-        />
+        <meta name="description" content="Page dedicated to projects/resume" />
       </Helmet>
-
-        <Typography
-            variant="h2"
-            gutterBottom
-        >
-            Ivan Luu's official resume
-        </Typography>
-
-      <Box paddingBottom={'10em'}>
-      </Box>
+      <Typography variant="h2" gutterBottom>
+        Ivan Luu's official resume
+      </Typography>
+      <Box paddingBottom={'10em'}></Box>
     </Container>
   );
 };

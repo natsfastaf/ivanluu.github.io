@@ -77,9 +77,7 @@ const NavBar: React.FC = () => {
   return (
     <AppBar position="static" color="transparent" elevation={0}>
       <Container maxWidth="md">
-
         <Toolbar disableGutters>
-
           <div className={classes.navlinks}>
             <Hidden xsDown>
               <ButtonGroup
