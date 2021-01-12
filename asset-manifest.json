@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/ivanluu.github.io/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/ivanluu.github.io/static/js/main.ff4e1a7c.chunk.js",
-    "main.js.map": "/ivanluu.github.io/static/js/main.ff4e1a7c.chunk.js.map",
+    "main.js": "/ivanluu.github.io/static/js/main.c095d5c2.chunk.js",
+    "main.js.map": "/ivanluu.github.io/static/js/main.c095d5c2.chunk.js.map",
     "runtime-main.js": "/ivanluu.github.io/static/js/runtime-main.7aba42e8.js",
     "runtime-main.js.map": "/ivanluu.github.io/static/js/runtime-main.7aba42e8.js.map",
-    "static/js/2.f86a4583.chunk.js": "/ivanluu.github.io/static/js/2.f86a4583.chunk.js",
-    "static/js/2.f86a4583.chunk.js.map": "/ivanluu.github.io/static/js/2.f86a4583.chunk.js.map",
+    "static/js/2.07310399.chunk.js": "/ivanluu.github.io/static/js/2.07310399.chunk.js",
+    "static/js/2.07310399.chunk.js.map": "/ivanluu.github.io/static/js/2.07310399.chunk.js.map",
     "index.html": "/ivanluu.github.io/index.html",
     "static/css/main.6dea0f05.chunk.css.map": "/ivanluu.github.io/static/css/main.6dea0f05.chunk.css.map",
-    "static/js/2.f86a4583.chunk.js.LICENSE.txt": "/ivanluu.github.io/static/js/2.f86a4583.chunk.js.LICENSE.txt",
+    "static/js/2.07310399.chunk.js.LICENSE.txt": "/ivanluu.github.io/static/js/2.07310399.chunk.js.LICENSE.txt",
     "static/media/LinkedIn.01a22cca.svg": "/ivanluu.github.io/static/media/LinkedIn.01a22cca.svg",
     "static/media/Mail.f2fd78f2.svg": "/ivanluu.github.io/static/media/Mail.f2fd78f2.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.7aba42e8.js",
-    "static/js/2.f86a4583.chunk.js",
+    "static/js/2.07310399.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.ff4e1a7c.chunk.js"
+    "static/js/main.c095d5c2.chunk.js"
   ]
 }
