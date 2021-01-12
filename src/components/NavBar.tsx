@@ -121,6 +121,9 @@ const NavBar: React.FC = () => {
                 open={Boolean(anchorEl)}
                 onClose={handleClose}
               >
+                <MenuItem onClick={handleClose} component={Link} to="/">
+                  <Typography variant="body1">Home</Typography>
+                </MenuItem>
                 <MenuItem onClick={handleClose} component={Link} to="/resume">
                   <Typography variant="body1">Resume</Typography>
                 </MenuItem>
