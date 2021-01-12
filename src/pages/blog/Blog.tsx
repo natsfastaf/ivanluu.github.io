@@ -10,7 +10,7 @@ const Blog: React.FC = () => {
           <title>Projects</title>
           <meta name="description" content="My latest interests" />
         </Helmet>
-        <Typography variant="h2" gutterBottom>
+        <Typography variant="h3" gutterBottom>
           Want to know what I've been interested in?
         </Typography>
       </Container>

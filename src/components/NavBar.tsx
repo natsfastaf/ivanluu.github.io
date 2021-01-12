@@ -84,6 +84,11 @@ const NavBar: React.FC = () => {
                 variant="text"
                 aria-label="text primary button group"
               >
+                <Button component={Link} to="/">
+                  <Typography variant="h6" className={classes.navlink}>
+                    Home
+                  </Typography>
+                </Button>
                 <Button component={Link} to="/resume">
                   <Typography variant="h6" className={classes.navlink}>
                     Resume

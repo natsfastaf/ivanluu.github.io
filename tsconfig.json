@@ -17,9 +17,6 @@
     "noFallthroughCasesInSwitch": true,
     "noImplicitAny": false
   },
-  "typeRoots" : [
-    "../node_modules/@types",
-    "../@types"
-  ],
+  "typeRoots": ["../node_modules/@types", "../@types"],
   "include": ["src"]
 }
